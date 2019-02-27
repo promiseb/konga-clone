@@ -1,0 +1,281 @@
+body{
+    background-color: #e7e7e7;
+}
+.navbar{
+    background-color: #ec077e !important;
+    font-size: 14px;
+    
+}
+
+.coloured .nav-link{
+    background-color: #2B9D6D;
+    padding: 10px 25px !important;
+    border-radius: 5px;
+    border: none !important;
+    
+}
+
+
+.navbar-nav .nav-link:hover{
+    background-color: #fff;
+    color: #ec077e !important;
+    transition: all .5s;
+}
+.nav-link{
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+.mynavv{
+    background-color: #93024e!important;
+    font-size: 14px!important;
+    padding: 10px 0px;
+}
+
+.mynavv .nav-link{
+    margin-top:-8px;
+    margin-left: -4px;  
+}
+
+.mynavv .nav-link:hover{
+    background-color: #fff;
+    color:#93024e !important;
+    transition: all .5s;
+}
+.mynav{
+    background-color: #ec077e;
+    margin: 0;
+    font-size: 10px;
+  
+}
+
+.mynav ul{
+    margin: 0;
+    color: #fff;
+    list-style-type: none;
+    display: inline;
+}
+
+.mynav li{
+    float: left;
+    margin-left: 10px;
+}
+
+.collapse .form-inline .form-control::placeholder{
+   font-size: 12px;
+}
+
+.collapse .form-inline{
+    position: absolute;
+    left: 30%;
+    
+}
+
+.collapse .form-inline .form-control{
+    border-radius: 0px!important;
+    width: 300px !important;
+}
+
+.collapse .form-inline .btn{
+        border-radius: 0px!important;
+}
+
+.box{
+    padding: 40px 20px;
+    box-sizing:content-box !important;
+}
+
+.box1{
+    padding: 40px 60px 40px 20px;
+    box-sizing:content-box !important;
+}
+
+
+.card{
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.card:hover{
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+    transition: all .5s;
+}
+.card img{
+    width: 80%;
+    margin: auto;
+}
+
+.card h5{
+    font-size: 14px;
+}
+
+.card h3{
+    font-size: 14px !important;
+}
+
+.card p{
+    font-size: 12px !important;
+}
+
+#banner{
+   padding: 0px 30px; 
+    margin-top: -15px;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#banner .btn{
+    position: absolute;
+    margin-top: -50px;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+    font-size: 14px;
+    left: 25%
+    }
+
+#popular-cat{
+    padding: 40px 20px 40px 30px;
+    box-sizing:content-box !important;
+}
+
+.cardy-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+}
+
+.cardy{
+    background-color: #fff;
+    margin-left: -15px;
+}
+
+.cardy .card-body{
+    padding: 0px 0px 20px 0px;
+}
+
+.cardy .card-body ul{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    list-style-type: none;
+}
+
+.cardy .card-body li{
+    margin-left: -40px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cardy .card-body li:hover{
+    background-color: #e7e7e7;
+    transition:all .5s;
+}
+
+.cardy .card-title{
+    margin: 20px 0px 5px 10px;
+    font-weight: bolder;
+}
+
+.cardy .card-title img{
+    margin-top: -20px
+}
+
+.cardy h5{
+    font-size: 16px;
+}
+
+@media (max-width: 992px){
+    .cardy-box{
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+}
+
+@media (max-width: 768px) { 
+ #banner .btn{
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 20px;
+        background-color: #f2f2f2;
+        border-radius: 0px;
+        font-size: 16px;
+        left: 5%;
+    }
+    .flexy{
+        overflow-x:scroll; overflow-y:hidden"
+    }
+    
+   .box1{
+    padding: 40px 30px 40px 15px;
+    box-sizing:content-box !important;
+}
+    .cardy-box{
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+}
+}
+    
+@media (max-width: 576px) { 
+.collapse .form-inline{
+    position: relative;
+    left: 0;
+}
+    
+.coloured .nav-link{
+    width: 40%;
+    padding: 15px 20pxpx !important;
+    
+}
+    .card h5{
+    font-size: 12px;
+}
+    .card h3{
+    font-size: 14px !important;
+}
+
+.card p{
+    font-size: 10px;
+}
+.box{
+    padding: 40px 10px;
+    box-sizing:content-box !important;
+}
+    #banner{
+        padding: 0px 15px
+    }
+    
+    #banner .btn{
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 20px;
+        background-color: #f2f2f2;
+        border-radius: 0px;
+        font-size: 14px;
+    }
+    
+    .flexy{
+        overflow-x:scroll; overflow-y:hidden"
+    }
+    
+    .box1{
+    padding: 20px 12px 20px 0px;
+    box-sizing:content-box !important;
+}
+    
+    .flexy .card-link{
+        font-size: 12px;
+    }
+    
+    .cardy .card-title{
+        font-size: 14px;
+    }
+}
